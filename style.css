@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* header part */
+
+header {
+    background: url(./assets/image/header_bg.png) no-repeat, url(./assets/image/developer.png) no-repeat;
+    background-position: bottom right,left;
+    background-color: #FFF8F3;
+    
+}
+
+#top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 125px;
+}
+.nav-logo h3 {
+    color: #000;
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.nav-logo span {
+    color: #FD6E0A;
+}
+.nav-menu ul li {
+    display: inline-block;
+}
+.nav-menu ul li a {
+    text-transform: capitalize;
+    color: #000;
+    margin-left: 50px;
+}
+.nav-menu ul li button {
+    margin-left: 50px;
+}
+
+/* banner part */
+.cover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 125px;
+}
+.cover-text h4 {
+    font-size: 45px;
+    font-weight: 600;
+}
+.cover-text h3 {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.cover-text p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.616);
+}
+.cover-text button {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* button color universal */
+
+.primary-button {
+    color: #FFF8F3;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+}
+
+
+/* other css */ 
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*  */
