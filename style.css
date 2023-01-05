@@ -15,7 +15,6 @@ header {
     background-color: #FFF8F3;
     
 }
-
 #top-nav {
     display: flex;
     justify-content: space-between;
@@ -65,24 +64,158 @@ header {
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.616);
 }
-.cover-text button {}
 
+/* about me part */
 
+#about {
+    padding: 150px 100px;
+}
+.about-me {
+    padding: 110px 150px;
+    background: rgb(255, 248, 243);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-me-text p {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.about-me-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-info {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.about-info span {
+    font-size: 20px;
+    color: rgb(117, 117, 117);
+}
+.about-info p {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+}
 
+/* work part */
 
+.works {
+    display: flex;
+    gap: 25px;
+}
+.work-item {
+    padding: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 6px 50px;
+}
+.work-item span i {
+    font-size: 50px;
+}
+.work-item h5 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.work-item p {
+    color: rgb(117, 117, 117);
+}
 
+/* resume part */
 
+#resume {
+    padding: 150px 100px;
+}
+.resume-part {
+    display: flex;
+    gap: 25px;
+}
+.eduactaion-part, .experience-part {
+    margin: 30px 0;
+}
+.eduactaion-part h3, .experience-part h3 {
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 10px;
+}
+.eduactaion-part h4, .experience-part h4 {
+    color: rgb(117, 117, 117);
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.eduactaion-part p, .experience-part p{
+    color: rgb(117, 117, 117);
+}
+.resume-download {
+  text-align: center;
+  margin-top: 30px;
+}
 
+/*  */
 
+.contact-us {
+    padding: 110px 150px;
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+}
+.connect h4, .messege h4 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.connect p {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.connect-medium a {
+    font-size: 20px;
+    color: #FD6E0A;
+    margin-right: 5px;
+}
 
+.messege input[type="text"], input[type="email"], textarea {
+    margin-bottom: 24px;
+    width: 100%;
+    font-size: 17px;
+    padding: 18px 30px;
+    border: none;
+    outline: none;
+}
+.messege input[type="text"]:focus, 
+input[type="email"]:focus, 
+textarea:focus {
+    border: 3px solid #000;
+    border-radius: 5px;
+}
 
+/* footer part */
 
-
-
-
-
-
-
+footer center p {
+    color: #000;
+    font-size: 20px;
+    padding: 20px;
+}
+footer center a {
+    color: rgb(245, 6, 6);
+    font-weight: 600;
+    font-size: 20px;
+}
 
 
 /* button color universal */
@@ -99,8 +232,19 @@ header {
     outline: none;
 }
 
-
 /* other css */ 
+
+.title-all {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.js-icon {color: #F0DB4F;}
+.react-icon {color: #61DAFB;}
+.database-icon {color: #001E2B;}
+.nodejs-icon {color: #8CC84B;}
 
 .container {
     max-width: 1200px;
